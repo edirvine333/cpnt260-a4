@@ -21,7 +21,7 @@ body {
 
   background-image: url("../assets/images/guitar_player.JPG"); 
 
-  background-size: cover;                     /*  maintains aspect ratio as viewport shrinks */
+  background-size: cover;                       /*  maintains aspect ratio as viewport shrinks */
   background-repeat: no-repeat;                 /*  stops tiling */
   background-position: top;                     /*  keeps background image at the top as viewport shrinks */
 
