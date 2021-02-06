@@ -19,7 +19,7 @@ body {
 .bkgrd_image {
   background-color: black;
 
-  background-image: url("assets/images/guitar_player.jpg"); 
+  background-image: url("/assets/images/guitar_player.jpg"); 
 
   background-size: cover;                     /*  maintains aspect ratio as viewport shrinks */
   background-repeat: no-repeat;                 /*  stops tiling */
@@ -178,7 +178,7 @@ footer a {
   .bkgrd_image {                                /*  at 775x, the background image changes and the text centers */
   background-color: black;                    /*  mobile-first design that quickly became desktop-ccentric, hence the use of a media query  */
 
-  background-image: url("assets/images/guitar_crop.png"); 
+  background-image: url("/assets/images/guitar_crop.png"); 
 
   background-size: contain;
   background-repeat: no-repeat;
