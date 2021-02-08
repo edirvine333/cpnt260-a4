@@ -3,7 +3,7 @@
 
 body {
   background-color: black;
-  font-size: 20px; /* setting base for rem */
+  font-size: 20px;                              /* setting base font-size for rem */
 
   margin: 0;                                    /* removes default margin around <body> element */
 }
@@ -35,7 +35,7 @@ body {
 
 .artist_name {
   color: goldenrod;
-  font-size: clamp(2vw, 5vw, 5vw);            /*  makes the font responsive */
+  font-size: clamp(2vw, 5vw, 5vw);              /*  makes the font responsive */
   font-family:  "Yellowtail", Georgia, monospace;           
   text-align: center;
 }
